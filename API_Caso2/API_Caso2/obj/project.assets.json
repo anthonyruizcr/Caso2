@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\antho\\Desktop\\API_Caso2\\API_Caso2\\API_Caso2.csproj",
+      "projectUniqueName": "C:\\Users\\antho\\Desktop\\Progra Avanzada Web\\Caso2\\API_Caso2\\API_Caso2\\API_Caso2.csproj",
       "projectName": "API_Caso2",
-      "projectPath": "C:\\Users\\antho\\Desktop\\API_Caso2\\API_Caso2\\API_Caso2.csproj",
+      "projectPath": "C:\\Users\\antho\\Desktop\\Progra Avanzada Web\\Caso2\\API_Caso2\\API_Caso2\\API_Caso2.csproj",
       "packagesPath": "C:\\Users\\antho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\antho\\Desktop\\API_Caso2\\API_Caso2\\obj\\",
+      "outputPath": "C:\\Users\\antho\\Desktop\\Progra Avanzada Web\\Caso2\\API_Caso2\\API_Caso2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\antho\\AppData\\Roaming\\NuGet\\NuGet.Config",
