@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Consulta";
+}
+@model IEnumerable<Web_Caso2.Entities.Casa>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title text-center">Consulta</h2>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Descripción</th>
+                                    <th>Precio</th>
+                                    <th>Usuario</th>
+                                    <th>Estado</th>
+                                    <th>Fecha</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.DescripcionCasa</td>
+                                        <td>@item.PrecioCasa</td>
+                                        <td>@item.UsuarioAlquiler</td>
+                                        <td>@item.Estado</td>
+                                        <td>@item.FechaAlquiler</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

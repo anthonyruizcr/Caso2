@@ -22,4 +22,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.UseSwagger();
+app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API_Caso2"));
+
 app.Run();
